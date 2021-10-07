@@ -1,11 +1,13 @@
 import React from "react";
 import {
+  BurgerMenu,
   NavbarContainer,
   NavbarLink,
   NavbarLinkSpan,
   NavbarMenu,
   NavLogo,
 } from "./NavbarElements";
+import { FaBars } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -13,15 +15,18 @@ function Navbar() {
       <NavLogo>HK</NavLogo>
       <NavbarMenu>
         <NavbarLink>
-          <NavbarLinkSpan>PORTFOLIO</NavbarLinkSpan>
+          <NavbarLinkSpan href="#portfolio">PORTFOLIO</NavbarLinkSpan>
         </NavbarLink>
         <NavbarLink>
-          <NavbarLinkSpan>ABOUT</NavbarLinkSpan>
+          <NavbarLinkSpan href="#about">ABOUT</NavbarLinkSpan>
         </NavbarLink>
         <NavbarLink>
-          <NavbarLinkSpan>CONTACT</NavbarLinkSpan>
+          <NavbarLinkSpan href="#contact">CONTACT</NavbarLinkSpan>
         </NavbarLink>
       </NavbarMenu>
+      <BurgerMenu>
+        <FaBars />
+      </BurgerMenu>
     </NavbarContainer>
   );
 }
