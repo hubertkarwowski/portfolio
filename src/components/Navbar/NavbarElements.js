@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.nav`
+  position: fixed;
   display: flex;
   justify-content: space-between;
   height: 10rem;
   width: 100%;
-  background-color: black;
+  background-color: transparent;
   z-index: 100;
   margin: 0;
   padding: 0;
