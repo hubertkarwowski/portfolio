@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { white } from "../../StyledVariables";
 
 export const NavbarContainer = styled.nav`
   position: fixed;
@@ -11,7 +12,7 @@ export const NavbarContainer = styled.nav`
   margin: 0;
   padding: 0;
   text-align: center;
-  color: #fff;
+  color: ${white};
   font-family: "Poppins", sans-serif;
 `;
 
@@ -48,7 +49,7 @@ export const NavbarLink = styled.li`
 `;
 export const NavbarLinkSpan = styled.a`
   text-decoration: none;
-  color: #fff;
+  color: ${white};
   display: inline-block;
   font-size: 2rem;
   border-bottom: 0.4rem solid transparent;
@@ -56,12 +57,12 @@ export const NavbarLinkSpan = styled.a`
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    border-bottom: 0.4rem solid #fff;
+    border-bottom: 0.4rem solid ${white};
   }
 `;
 /*do zrobienia */
 export const BurgerMenu = styled.div`
-  color: #fff;
+  color: ${white};
   display: flex;
   align-items: center;
   margin-right: 4rem;

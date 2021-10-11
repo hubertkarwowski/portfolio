@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { blue } from "../../StyledVariables";
 
 export const Container = styled.div`
   display: flex;
@@ -69,13 +70,17 @@ export const ProjectInfoButton = styled.div`
   }
   a {
     text-decoration: none;
-    color: #00a7e1;
+    color: ${blue};
     font-size: 2.8rem;
-    border: 2px solid #00a7e1;
+    border: 2px solid ${blue};
     border-radius: 5px;
     padding: 1rem;
+    transition: all 0.3s ease-in-out;
     @media (max-width: 768px) {
       font-size: 1.8rem;
+    }
+    &:hover {
+      background-color: #c2f0ff;
     }
   }
 `;

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import mountains from "../../assets/mountains.png";
+import { white } from "../../StyledVariables";
 
 export const HeroSection = styled.section`
   background-image: url(${mountains});
@@ -31,7 +32,7 @@ export const HeroName = styled.div`
     font-size: 7.2rem;
     font-family: "Manuale", serif;
     font-weight: 400;
-    color: #fff;
+    color: ${white};
     z-index: 10;
     text-align: center;
     margin-top: 18rem;
@@ -52,7 +53,7 @@ export const HeroAboutMe = styled.div`
     position: absolute;
     font-size: 2.5rem;
     font-weight: 400;
-    color: #fff;
+    color: ${white};
     z-index: 10;
     margin-top: 30rem;
     font-weight: 300;
@@ -75,7 +76,7 @@ export const HeroButton = styled.div`
   display: flex;
   justify-content: center;
   a {
-    color: #ffffff;
+    color: ${white};
     font-family: "Poppins", sans-serif;
     position: absolute;
     font-size: 2.5rem;
@@ -84,7 +85,7 @@ export const HeroButton = styled.div`
     margin-top: 43rem;
     font-weight: 300;
     text-align: center;
-    border: 2px solid #ffffff;
+    border: 2px solid ${white};
     padding: 2rem;
     border-radius: 0.5rem;
     transition: all 0.3s ease-in-out;
