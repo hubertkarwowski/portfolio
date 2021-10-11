@@ -33,6 +33,7 @@ export const HeroName = styled.div`
     font-weight: 400;
     color: #fff;
     z-index: 10;
+    text-align: center;
     margin-top: 18rem;
     @media (max-width: 657px) {
       font-size: 5rem;
@@ -53,11 +54,15 @@ export const HeroAboutMe = styled.div`
     font-weight: 400;
     color: #fff;
     z-index: 10;
-    margin-top: 28rem;
+    margin-top: 30rem;
     font-weight: 300;
     text-align: center;
     @media (max-width: 1024px) {
       width: 70%;
+    }
+    @media (max-width: 375px) {
+      margin-top: 34rem;
+      width: 100%;
     }
 
     span {
@@ -87,6 +92,9 @@ export const HeroButton = styled.div`
     &:hover {
       background-color: rgba(234, 234, 234, 0.3);
       border-radius: 4rem 0.5rem;
+    }
+    @media (max-width: 768px) {
+      margin-top: 50rem;
     }
     @media (max-width: 425px) {
       margin-top: 55rem;
