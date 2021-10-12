@@ -101,6 +101,9 @@ export const CardBody = styled.div`
       font-size: 2rem;
       font-weight: 300;
       text-align: center;
+      svg {
+        font-size: 2rem;
+      }
     }
   }
 `;

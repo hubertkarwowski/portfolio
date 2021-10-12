@@ -14,6 +14,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiReact, DiSass } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiMaterialui, SiStyledcomponents } from "react-icons/si";
+import { BsCheck } from "react-icons/bs";
 function AboutMe() {
   return (
     <Container>
@@ -44,11 +45,29 @@ function AboutMe() {
           </CardHeader>
           <CardBody>
             <ul>
-              <li>-video games</li>
-              <li>-tea</li>
-              <li>-beer</li>
-              <li>-anime</li>
-              <li>-coding</li>
+              <li>
+                <BsCheck /> video games
+              </li>
+              <li>
+                {" "}
+                <BsCheck />
+                tea
+              </li>
+              <li>
+                {" "}
+                <BsCheck />
+                beer
+              </li>
+              <li>
+                {" "}
+                <BsCheck />
+                anime
+              </li>
+              <li>
+                {" "}
+                <BsCheck />
+                coding
+              </li>
             </ul>
           </CardBody>
         </Card>
