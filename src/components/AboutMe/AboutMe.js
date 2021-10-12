@@ -49,22 +49,18 @@ function AboutMe() {
                 <BsCheck /> video games
               </li>
               <li>
-                {" "}
                 <BsCheck />
                 tea
               </li>
               <li>
-                {" "}
                 <BsCheck />
                 beer
               </li>
               <li>
-                {" "}
                 <BsCheck />
                 anime
               </li>
               <li>
-                {" "}
                 <BsCheck />
                 coding
               </li>
