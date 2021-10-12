@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { blue } from "../../StyledVariables";
+import { blue, firstFont, secondFont } from "../../StyledVariables";
 
 export const Container = styled.div`
   display: flex;
@@ -23,7 +23,7 @@ export const ProjectInfo = styled.div`
 export const ProjectInfoTitle = styled.div`
   margin-bottom: 3rem;
   h2 {
-    font-family: "Manuale", serif;
+    font-family: ${firstFont}, serif;
     font-weight: 400;
     font-size: 4rem;
     border-bottom: 2px solid #e4e4e4;
@@ -38,7 +38,7 @@ export const ProjectInfoDescription = styled.div`
     width: 100%;
   }
   h4 {
-    font-family: "Poppins", "sans-serif";
+    font-family: ${secondFont}, "sans-serif";
     font-weight: 400;
     font-size: 2rem;
   }
@@ -50,7 +50,7 @@ export const ProjectInfoButtons = styled.div`
   }
 `;
 export const ProjectInfoButton = styled.div`
-  font-family: "Poppins", "sans-serif";
+  font-family: ${firstFont}, "sans-serif";
   margin: 0 2rem;
   @media (max-width: 1247px) {
     margin: 2rem 2rem;
@@ -90,6 +90,7 @@ export const ProjectImage = styled.div`
   justify-content: center;
   img {
     max-width: 500px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media (max-width: 768px) {
       max-width: 350px;
     }
