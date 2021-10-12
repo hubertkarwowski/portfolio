@@ -63,7 +63,7 @@ export const ProjectInfoButton = styled.div`
       position: absolute;
       transform: translateY(0.5rem) translateX(-1rem);
       font-size: 3rem;
-      color: black;
+      color: ${blue};
       @media (max-width: 768px) {
         transform: translateY(-0.2rem) translateX(-1.8rem);
       }

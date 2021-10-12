@@ -6,7 +6,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 167, 225, 0.7);
+  background-color: rgba(0, 167, 225, 0.6);
   background-size: cover;
   background-position: center;
   padding-bottom: 3rem;

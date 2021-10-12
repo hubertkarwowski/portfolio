@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import mountains from "../../assets/mountains.png";
-import { white } from "../../StyledVariables";
+import { secondFont, white } from "../../StyledVariables";
 
 export const HeroSection = styled.section`
   background-image: url(${mountains});
@@ -30,7 +30,7 @@ export const HeroName = styled.div`
   h1 {
     position: absolute;
     font-size: 7.2rem;
-    font-family: "Manuale", serif;
+    font-family: ${secondFont}, "sans-serif";
     font-weight: 400;
     color: ${white};
     z-index: 10;
