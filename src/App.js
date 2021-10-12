@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import "./style.css";
 import Portfolio from "./components/portfolio/Portfolio";
+import AboutMe from "./components/AboutMe/AboutMe";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Portfolio />
+      <AboutMe />
     </>
   );
 }
