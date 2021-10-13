@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { firstFont, secondFont, white } from "../../StyledVariables";
-import mountains from "../../assets/mountains.png";
 
 export const Container = styled.section`
   display: flex;
@@ -103,6 +102,8 @@ export const CardBody = styled.div`
       text-align: center;
       svg {
         font-size: 2rem;
+        position: absolute;
+        transform: translate(-2rem, 0.7rem);
       }
     }
   }
