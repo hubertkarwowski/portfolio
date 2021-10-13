@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { white } from "../../StyledVariables";
+import { blue, white } from "../../StyledVariables";
 
 export const NavbarContainer = styled.nav`
   position: fixed;
@@ -7,13 +7,14 @@ export const NavbarContainer = styled.nav`
   justify-content: space-between;
   height: 10rem;
   width: 100%;
-  background-color: transparent;
+  background-color: #fafafa;
   z-index: 100;
   margin: 0;
   padding: 0;
   text-align: center;
-  color: ${white};
+  color: ${blue};
   font-family: "Poppins", sans-serif;
+  box-shadow: 0 0 5px rgb(0 0 0 / 20%);
 `;
 
 export const NavLogo = styled.div`
@@ -49,7 +50,7 @@ export const NavbarLink = styled.li`
 `;
 export const NavbarLinkSpan = styled.a`
   text-decoration: none;
-  color: ${white};
+  color: ${blue};
   display: inline-block;
   font-size: 2rem;
   border-bottom: 0.4rem solid transparent;
@@ -57,7 +58,7 @@ export const NavbarLinkSpan = styled.a`
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    border-bottom: 0.4rem solid ${white};
+    border-bottom: 0.4rem solid ${blue};
   }
 `;
 /*do zrobienia */
