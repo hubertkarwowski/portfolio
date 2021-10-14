@@ -17,7 +17,7 @@ import { SiMaterialui, SiStyledcomponents } from "react-icons/si";
 import { BsCheck } from "react-icons/bs";
 function AboutMe() {
   return (
-    <Container>
+    <Container id="aboutme">
       <Title>
         <h2>ABOUT ME</h2>
       </Title>

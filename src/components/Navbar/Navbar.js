@@ -18,10 +18,10 @@ function Navbar() {
           <NavbarLinkSpan href="#portfolio">PORTFOLIO</NavbarLinkSpan>
         </NavbarLink>
         <NavbarLink>
-          <NavbarLinkSpan href="#about">ABOUT</NavbarLinkSpan>
+          <NavbarLinkSpan href="#aboutme">ABOUT</NavbarLinkSpan>
         </NavbarLink>
         <NavbarLink>
-          <NavbarLinkSpan href="#contact">CONTACT</NavbarLinkSpan>
+          <NavbarLinkSpan href="#contactme">CONTACT</NavbarLinkSpan>
         </NavbarLink>
       </NavbarMenu>
       <BurgerMenu>
