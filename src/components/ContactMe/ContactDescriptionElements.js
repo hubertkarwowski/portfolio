@@ -51,7 +51,6 @@ export const Icons = styled.div`
     letter-spacing: 0.195em;
     font-size: 3.4rem;
     font-weight: 500;
-    border-bottom: 2px solid #e4e4e4;
     @media (max-width: 1440px) {
       font-size: 1.8rem;
     }
