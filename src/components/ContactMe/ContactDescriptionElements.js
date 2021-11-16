@@ -22,6 +22,7 @@ export const Title = styled.div`
     @media (max-width: 460px) {
       margin: 2rem 0;
       font-size: 4rem;
+      text-align: center;
     }
   }
 `;

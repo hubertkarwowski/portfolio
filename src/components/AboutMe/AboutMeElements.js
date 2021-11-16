@@ -83,7 +83,7 @@ export const CardBody = styled.div`
     width: 80%;
   }
   i {
-    margin: 3rem 2rem;
+    margin: 0 2rem;
     @media (max-width: 1386px) {
       margin: 1rem 1rem;
     }
@@ -110,7 +110,7 @@ export const CardBody = styled.div`
 `;
 export const LastItems = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 4rem;
   @media (max-width: 1386px) {
     margin: auto;
@@ -118,7 +118,7 @@ export const LastItems = styled.div`
   i {
     svg {
       color: ${white};
-      font-size: 7rem;
+      font-size: 10rem;
     }
   }
 `;

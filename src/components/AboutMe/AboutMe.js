@@ -95,9 +95,6 @@ function AboutMe() {
             </i>
             <LastItems>
               <i>
-                <SiMaterialui />
-              </i>
-              <i>
                 <SiStyledcomponents />
               </i>
             </LastItems>

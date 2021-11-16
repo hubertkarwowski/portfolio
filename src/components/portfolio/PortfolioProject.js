@@ -31,7 +31,7 @@ function PortfolioProject(props) {
             </a>
           </ProjectInfoButton>
           <ProjectInfoButton>
-            <a href={props.link}>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
               <i>
                 <BsGlobe />
               </i>

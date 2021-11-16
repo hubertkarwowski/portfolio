@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { blue, firstFont, secondFont } from "../../StyledVariables";
 
 export const Container = styled.div`
+  text-align: center;
   display: flex;
   padding: 5rem 0;
   @media (max-width: 1024px) {

@@ -98,7 +98,7 @@ export const HeroButton = styled.div`
       margin-top: 50rem;
     }
     @media (max-width: 425px) {
-      margin-top: 55rem;
+      margin-top: 50rem;
     }
   }
 `;
