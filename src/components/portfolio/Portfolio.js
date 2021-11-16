@@ -5,10 +5,11 @@ import PortfolioProject from "./PortfolioProject";
 import weatherAppImage from "../../assets/weather-app.jpg";
 import ShopImage from "../../assets/mockup2.jpg";
 import ScootImage from "../../assets/mockup1.jpg";
+import SunnyImage from "../../assets/sunnyside.jpg";
 
 function Portfolio() {
   return (
-    <Container id="portfolio">
+    <Container>
       <PortfolioHeader />
       <PortfolioProject
         title="Shop"
@@ -22,7 +23,7 @@ function Portfolio() {
         title="Scoot Multi-page Website"
         description="This is a multi-page website created with react, react-router and styled-components and smooth animations."
         image={ScootImage}
-        alt="Shop Image"
+        alt="Scoot Image"
         github="https://github.com/hubertkarwowski/Scoot"
         link="https://fir-hosting-scoot.web.app/"
       />
@@ -33,6 +34,14 @@ function Portfolio() {
         image={weatherAppImage}
         alt="Weather App Image"
         github="https://github.com/hubertkarwowski/weather-appv2"
+      />
+      <PortfolioProject
+        title="Sunnyside Landing page "
+        description="I tried to build a site as fast as i can with react and styled-components, site works for 375px and 1440px."
+        image={SunnyImage}
+        alt="Landing page Image"
+        github="https://github.com/hubertkarwowski/sunnyside"
+        link="https://fir-hosting-sunnyside.web.app/"
       />
     </Container>
   );
