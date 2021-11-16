@@ -34,6 +34,7 @@ function Portfolio() {
         image={weatherAppImage}
         alt="Weather App Image"
         github="https://github.com/hubertkarwowski/weather-appv2"
+        link="https://fir-hosting-weather-20507.web.app/"
       />
       <PortfolioProject
         title="Sunnyside Landing page "
