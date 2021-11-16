@@ -41,6 +41,7 @@ export const HeroName = styled.div`
     }
     @media (max-width: 425px) {
       font-size: 4rem;
+      margin-top: 11rem;
     }
   }
 `;
@@ -62,7 +63,7 @@ export const HeroAboutMe = styled.div`
       width: 70%;
     }
     @media (max-width: 375px) {
-      margin-top: 34rem;
+      margin-top: 23rem;
       width: 100%;
     }
 
@@ -98,7 +99,7 @@ export const HeroButton = styled.div`
       margin-top: 50rem;
     }
     @media (max-width: 425px) {
-      margin-top: 50rem;
+      margin-top: 40rem;
     }
   }
 `;
