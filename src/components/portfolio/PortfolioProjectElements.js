@@ -89,7 +89,11 @@ export const ProjectImage = styled.div`
   width: 50%;
   display: flex;
   justify-content: center;
+  img:hover {
+    transform: translateY(-10px);
+  }
   img {
+    transition: all 0.3s ease;
     max-width: 500px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media (max-width: 768px) {

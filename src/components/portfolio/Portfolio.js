@@ -4,6 +4,7 @@ import PortfolioHeader from "./PortfolioHeader";
 import PortfolioProject from "./PortfolioProject";
 import weatherAppImage from "../../assets/weather-app.jpg";
 import ShopImage from "../../assets/mockup2.jpg";
+import Weather from "../../assets/mockup3.jpg";
 import ScootImage from "../../assets/mockup1.jpg";
 import SunnyImage from "../../assets/sunnyside.jpg";
 
@@ -43,6 +44,22 @@ function Portfolio() {
         alt="Landing page Image"
         github="https://github.com/hubertkarwowski/sunnyside"
         link="https://fir-hosting-sunnyside.web.app/"
+      />
+      <PortfolioProject
+        title="Sunnyside Landing page "
+        description="I tried to build a site as fast as i can with react and styled-components, site works for 375px and 1440px."
+        image={SunnyImage}
+        alt="Landing page Image"
+        github="https://github.com/hubertkarwowski/sunnyside"
+        link="https://fir-hosting-sunnyside.web.app/"
+      />
+      <PortfolioProject
+        title="JavaScript Weather App"
+        description="I built that app to test my JS skills, also implemented auto location and charts."
+        image={Weather}
+        alt="Landing page Image"
+        github="https://github.com/hubertkarwowski/weather-app-js"
+        link="https://loving-lamport-3cd2aa.netlify.app"
       />
     </Container>
   );
