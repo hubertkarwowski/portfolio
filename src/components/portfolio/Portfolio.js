@@ -46,14 +46,6 @@ function Portfolio() {
         link="https://fir-hosting-sunnyside.web.app/"
       />
       <PortfolioProject
-        title="Sunnyside Landing page "
-        description="I tried to build a site as fast as i can with react and styled-components, site works for 375px and 1440px."
-        image={SunnyImage}
-        alt="Landing page Image"
-        github="https://github.com/hubertkarwowski/sunnyside"
-        link="https://fir-hosting-sunnyside.web.app/"
-      />
-      <PortfolioProject
         title="JavaScript Weather App"
         description="I built that app to test my JS skills, also implemented auto location and charts."
         image={Weather}
