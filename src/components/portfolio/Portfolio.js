@@ -7,6 +7,7 @@ import ShopImage from "../../assets/mockup2.jpg";
 import Weather from "../../assets/mockup3.jpg";
 import ScootImage from "../../assets/mockup1.jpg";
 import SunnyImage from "../../assets/sunnyside.jpg";
+import StarbucksImage from "../../assets/mockup4.jpg";
 
 function Portfolio() {
   return (
@@ -52,6 +53,14 @@ function Portfolio() {
         alt="Landing page Image"
         github="https://github.com/hubertkarwowski/weather-app-js"
         link="https://loving-lamport-3cd2aa.netlify.app"
+      />
+      <PortfolioProject
+        title="Starbucks Clone"
+        description="I built starbucks clone."
+        image={StarbucksImage}
+        alt="Landing page Image"
+        github="https://github.com/hubertkarwowski/starbucks-clone"
+        link="https://fir-hosting-starbucks.web.app/"
       />
     </Container>
   );
